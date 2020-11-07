@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067B88012556EE05001FBFFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88002556EE05001FBFFC /* AppDelegate.swift */; };
+		067B88032556EE05001FBFFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88022556EE05001FBFFC /* SceneDelegate.swift */; };
+		067B88082556EE05001FBFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067B88062556EE05001FBFFC /* Main.storyboard */; };
+		067B880A2556EE07001FBFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067B88092556EE07001FBFFC /* Assets.xcassets */; };
+		067B880D2556EE07001FBFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067B880B2556EE07001FBFFC /* LaunchScreen.storyboard */; };
+		067B88182556EE07001FBFFC /* MosaicFlowLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88172556EE07001FBFFC /* MosaicFlowLayoutDemoTests.swift */; };
+		067B88252556EE5D001FBFFC /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88242556EE5D001FBFFC /* RootVC.swift */; };
+		067B88292556EE83001FBFFC /* TRMosaicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88272556EE83001FBFFC /* TRMosaicLayout.swift */; };
+		067B882A2556EE83001FBFFC /* TRMosaicColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B88282556EE83001FBFFC /* TRMosaicColumn.swift */; };
+		91ACE56F5EE68A6755BF957C /* Pods_MosaicFlowLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306D1641D276CCCEB2D2333C /* Pods_MosaicFlowLayoutDemo.framework */; };
+		CC8768526E2705BA5C746F21 /* Pods_MosaicFlowLayoutDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738ECEE27089A733513E3489 /* Pods_MosaicFlowLayoutDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067B88142556EE07001FBFFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067B87F52556EE05001FBFFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067B87FC2556EE05001FBFFC;
+			remoteInfo = MosaicFlowLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067B87FD2556EE05001FBFFC /* MosaicFlowLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicFlowLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067B88002556EE05001FBFFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		067B88022556EE05001FBFFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		067B88072556EE05001FBFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067B88092556EE07001FBFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067B880C2556EE07001FBFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		067B880E2556EE07001FBFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067B88132556EE07001FBFFC /* MosaicFlowLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicFlowLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067B88172556EE07001FBFFC /* MosaicFlowLayoutDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicFlowLayoutDemoTests.swift; sourceTree = "<group>"; };
+		067B88192556EE07001FBFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067B88242556EE5D001FBFFC /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		067B88272556EE83001FBFFC /* TRMosaicLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMosaicLayout.swift; sourceTree = "<group>"; };
+		067B88282556EE83001FBFFC /* TRMosaicColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMosaicColumn.swift; sourceTree = "<group>"; };
+		067B882C2556F1FD001FBFFC /* MosaicFlowLayoutDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MosaicFlowLayoutDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A4FA88E7957221A551DB0EA /* Pods-MosaicFlowLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicFlowLayoutDemo.debug.xcconfig"; path = "Target Support Files/Pods-MosaicFlowLayoutDemo/Pods-MosaicFlowLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		306D1641D276CCCEB2D2333C /* Pods_MosaicFlowLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosaicFlowLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354B732EF89EF47D4DC890F3 /* Pods-MosaicFlowLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicFlowLayoutDemo.release.xcconfig"; path = "Target Support Files/Pods-MosaicFlowLayoutDemo/Pods-MosaicFlowLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		36D735BA8DD5EE68D5BBD55A /* Pods-MosaicFlowLayoutDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicFlowLayoutDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MosaicFlowLayoutDemoTests/Pods-MosaicFlowLayoutDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		738ECEE27089A733513E3489 /* Pods_MosaicFlowLayoutDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosaicFlowLayoutDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88E5A7A9BFE83177829D7A6 /* Pods-MosaicFlowLayoutDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicFlowLayoutDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MosaicFlowLayoutDemoTests/Pods-MosaicFlowLayoutDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067B87FA2556EE05001FBFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ACE56F5EE68A6755BF957C /* Pods_MosaicFlowLayoutDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B88102556EE07001FBFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8768526E2705BA5C746F21 /* Pods_MosaicFlowLayoutDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067B87F42556EE05001FBFFC = {
+			isa = PBXGroup;
+			children = (
+				067B87FF2556EE05001FBFFC /* MosaicFlowLayoutDemo */,
+				067B88162556EE07001FBFFC /* MosaicFlowLayoutDemoTests */,
+				067B87FE2556EE05001FBFFC /* Products */,
+				5EB83EAA319E8DEF625109B6 /* Pods */,
+				41C66E44FAE7A7768A311445 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		067B87FE2556EE05001FBFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067B87FD2556EE05001FBFFC /* MosaicFlowLayoutDemo.app */,
+				067B88132556EE07001FBFFC /* MosaicFlowLayoutDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067B87FF2556EE05001FBFFC /* MosaicFlowLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				067B88222556EE0F001FBFFC /* App */,
+				067B88232556EE3A001FBFFC /* Scences */,
+				067B882B2556F1DE001FBFFC /* Supporting Files */,
+			);
+			path = MosaicFlowLayoutDemo;
+			sourceTree = "<group>";
+		};
+		067B88162556EE07001FBFFC /* MosaicFlowLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				067B88172556EE07001FBFFC /* MosaicFlowLayoutDemoTests.swift */,
+				067B88192556EE07001FBFFC /* Info.plist */,
+			);
+			path = MosaicFlowLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		067B88222556EE0F001FBFFC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				067B880E2556EE07001FBFFC /* Info.plist */,
+				067B88002556EE05001FBFFC /* AppDelegate.swift */,
+				067B880B2556EE07001FBFFC /* LaunchScreen.storyboard */,
+				067B88092556EE07001FBFFC /* Assets.xcassets */,
+				067B88022556EE05001FBFFC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		067B88232556EE3A001FBFFC /* Scences */ = {
+			isa = PBXGroup;
+			children = (
+				067B88262556EE72001FBFFC /* FlowLayout */,
+				067B88062556EE05001FBFFC /* Main.storyboard */,
+				067B88242556EE5D001FBFFC /* RootVC.swift */,
+			);
+			path = Scences;
+			sourceTree = "<group>";
+		};
+		067B88262556EE72001FBFFC /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				067B88282556EE83001FBFFC /* TRMosaicColumn.swift */,
+				067B88272556EE83001FBFFC /* TRMosaicLayout.swift */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		067B882B2556F1DE001FBFFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067B882C2556F1FD001FBFFC /* MosaicFlowLayoutDemo-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C66E44FAE7A7768A311445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				306D1641D276CCCEB2D2333C /* Pods_MosaicFlowLayoutDemo.framework */,
+				738ECEE27089A733513E3489 /* Pods_MosaicFlowLayoutDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EB83EAA319E8DEF625109B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A4FA88E7957221A551DB0EA /* Pods-MosaicFlowLayoutDemo.debug.xcconfig */,
+				354B732EF89EF47D4DC890F3 /* Pods-MosaicFlowLayoutDemo.release.xcconfig */,
+				36D735BA8DD5EE68D5BBD55A /* Pods-MosaicFlowLayoutDemoTests.debug.xcconfig */,
+				E88E5A7A9BFE83177829D7A6 /* Pods-MosaicFlowLayoutDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067B87FC2556EE05001FBFFC /* MosaicFlowLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067B881C2556EE07001FBFFC /* Build configuration list for PBXNativeTarget "MosaicFlowLayoutDemo" */;
+			buildPhases = (
+				ECCC55DABDB3FFCEA87990AE /* [CP] Check Pods Manifest.lock */,
+				067B87F92556EE05001FBFFC /* Sources */,
+				067B87FA2556EE05001FBFFC /* Frameworks */,
+				067B87FB2556EE05001FBFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosaicFlowLayoutDemo;
+			productName = MosaicFlowLayoutDemo;
+			productReference = 067B87FD2556EE05001FBFFC /* MosaicFlowLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		067B88122556EE07001FBFFC /* MosaicFlowLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067B881F2556EE07001FBFFC /* Build configuration list for PBXNativeTarget "MosaicFlowLayoutDemoTests" */;
+			buildPhases = (
+				A8E7DC6F2A6B5038464A46B8 /* [CP] Check Pods Manifest.lock */,
+				067B880F2556EE07001FBFFC /* Sources */,
+				067B88102556EE07001FBFFC /* Frameworks */,
+				067B88112556EE07001FBFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067B88152556EE07001FBFFC /* PBXTargetDependency */,
+			);
+			name = MosaicFlowLayoutDemoTests;
+			productName = MosaicFlowLayoutDemoTests;
+			productReference = 067B88132556EE07001FBFFC /* MosaicFlowLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067B87F52556EE05001FBFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = MostafaAbdElFatah;
+				TargetAttributes = {
+					067B87FC2556EE05001FBFFC = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
+					067B88122556EE07001FBFFC = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 067B87FC2556EE05001FBFFC;
+					};
+				};
+			};
+			buildConfigurationList = 067B87F82556EE05001FBFFC /* Build configuration list for PBXProject "MosaicFlowLayoutDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067B87F42556EE05001FBFFC;
+			productRefGroup = 067B87FE2556EE05001FBFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067B87FC2556EE05001FBFFC /* MosaicFlowLayoutDemo */,
+				067B88122556EE07001FBFFC /* MosaicFlowLayoutDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067B87FB2556EE05001FBFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B880D2556EE07001FBFFC /* LaunchScreen.storyboard in Resources */,
+				067B880A2556EE07001FBFFC /* Assets.xcassets in Resources */,
+				067B88082556EE05001FBFFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B88112556EE07001FBFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8E7DC6F2A6B5038464A46B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosaicFlowLayoutDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCC55DABDB3FFCEA87990AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosaicFlowLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067B87F92556EE05001FBFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B882A2556EE83001FBFFC /* TRMosaicColumn.swift in Sources */,
+				067B88252556EE5D001FBFFC /* RootVC.swift in Sources */,
+				067B88012556EE05001FBFFC /* AppDelegate.swift in Sources */,
+				067B88032556EE05001FBFFC /* SceneDelegate.swift in Sources */,
+				067B88292556EE83001FBFFC /* TRMosaicLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B880F2556EE07001FBFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B88182556EE07001FBFFC /* MosaicFlowLayoutDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067B88152556EE07001FBFFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067B87FC2556EE05001FBFFC /* MosaicFlowLayoutDemo */;
+			targetProxy = 067B88142556EE07001FBFFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		067B88062556EE05001FBFFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067B88072556EE05001FBFFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067B880B2556EE07001FBFFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067B880C2556EE07001FBFFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067B881A2556EE07001FBFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		067B881B2556EE07001FBFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067B881D2556EE07001FBFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4FA88E7957221A551DB0EA /* Pods-MosaicFlowLayoutDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y699PM52F2;
+				INFOPLIST_FILE = MosaicFlowLayoutDemo/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arabia-it.MosaicFlowLayoutDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MosaicFlowLayoutDemo/Supporting Files/MosaicFlowLayoutDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		067B881E2556EE07001FBFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354B732EF89EF47D4DC890F3 /* Pods-MosaicFlowLayoutDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y699PM52F2;
+				INFOPLIST_FILE = MosaicFlowLayoutDemo/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arabia-it.MosaicFlowLayoutDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MosaicFlowLayoutDemo/Supporting Files/MosaicFlowLayoutDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		067B88202556EE07001FBFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D735BA8DD5EE68D5BBD55A /* Pods-MosaicFlowLayoutDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y699PM52F2;
+				INFOPLIST_FILE = MosaicFlowLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arabia-it.MosaicFlowLayoutDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosaicFlowLayoutDemo.app/MosaicFlowLayoutDemo";
+			};
+			name = Debug;
+		};
+		067B88212556EE07001FBFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88E5A7A9BFE83177829D7A6 /* Pods-MosaicFlowLayoutDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y699PM52F2;
+				INFOPLIST_FILE = MosaicFlowLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arabia-it.MosaicFlowLayoutDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosaicFlowLayoutDemo.app/MosaicFlowLayoutDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067B87F82556EE05001FBFFC /* Build configuration list for PBXProject "MosaicFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B881A2556EE07001FBFFC /* Debug */,
+				067B881B2556EE07001FBFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067B881C2556EE07001FBFFC /* Build configuration list for PBXNativeTarget "MosaicFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B881D2556EE07001FBFFC /* Debug */,
+				067B881E2556EE07001FBFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067B881F2556EE07001FBFFC /* Build configuration list for PBXNativeTarget "MosaicFlowLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B88202556EE07001FBFFC /* Debug */,
+				067B88212556EE07001FBFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067B87F52556EE05001FBFFC /* Project object */;
+}

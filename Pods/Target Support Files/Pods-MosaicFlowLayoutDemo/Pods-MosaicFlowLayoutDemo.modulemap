@@ -1,0 +1,6 @@
+framework module Pods_MosaicFlowLayoutDemo {
+  umbrella header "Pods-MosaicFlowLayoutDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
